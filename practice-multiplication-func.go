@@ -20,6 +20,6 @@ func main() {
 
 func multiplyFunc(num, iteration int) {
 	for i := 1; i <= iteration; i++ {
-		fmt.Println(strconv.Itoa(num) + " " + "*" + " " + strconv.Itoa(i) + " " + "=", num * i)
+		fmt.Println(strconv.Itoa(num), "*", strconv.Itoa(i), "=", num * i)
 	}
 }
